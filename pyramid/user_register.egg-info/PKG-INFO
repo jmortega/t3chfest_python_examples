@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: user-register
+Version: 0.0
+Summary: user_register
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: user_register
+        =========
+        
+        Install
+        -------
+        
+        As usual, you should first install this example package::
+        
+          $ ../bin/python setup.py develop
+        
+Keywords: web pylons pyramid
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Pylons
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application

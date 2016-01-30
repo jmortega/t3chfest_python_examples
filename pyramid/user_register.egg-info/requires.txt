@@ -1,0 +1,10 @@
+pyramid_chameleon
+pyramid
+pyramid_zodbconn
+pyramid_tm
+pyramid_debugtoolbar
+ZODB3
+waitress
+deform
+deform_bootstrap
+pyramid_deform
