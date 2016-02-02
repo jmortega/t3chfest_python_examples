@@ -30,6 +30,7 @@ def main():
     track1 = bs.find_all('a', {'class': 'track1'})
     track2 = bs.find_all('a', {'class': 'track2'})
     track3 = bs.find_all('a', {'class': 'track3'})
+    track4 = bs.find_all('a', {'class': 'track4'})
     
     for aux in track1:
 	speaker = aux.find('p')
@@ -66,6 +67,18 @@ def main():
 	    talk_t3chfest['track'] = track
 	    if talk_t3chfest not in talks_t3chfest:
 		talks_t3chfest.append(talk_t3chfest)
+		
+    for aux in track4:
+	speaker = aux.find('p')
+	title = aux.find('h5')
+	track = "track4"
+	talk_t3chfest = {}
+	if speaker is not None and title is not None:
+	    talk_t3chfest['speaker'] = speaker.text.encode('utf-8')
+	    talk_t3chfest['title'] = title.text.encode('utf-8')
+	    talk_t3chfest['track'] = track
+	    if talk_t3chfest not in talks_t3chfest:
+		talks_t3chfest.append(talk_t3chfest)    
 		
 
 if __name__=="__main__":

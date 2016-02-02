@@ -89,8 +89,8 @@
     "track": "track1"
 }
 {
-    "speaker": "Laura Morillo y Marina Moreno", 
-    "title": "Help I need more women!", 
+    "speaker": "David G\u00f3mez Garc\u00eda (Autentia)", 
+    "title": "Uso del API JavaScript de Photoshop para obtener fotos HDTR", 
     "track": "track1"
 }
 {
@@ -169,8 +169,8 @@
     "track": "track2"
 }
 {
-    "speaker": "David G\u00f3mez Garc\u00eda (Autentia)", 
-    "title": "Uso del API JavaScript de Photoshop para obtener fotos HDTR", 
+    "speaker": "Laura Morillo y Marina Moreno", 
+    "title": "Help I need more women!", 
     "track": "track2"
 }
 {
@@ -265,4 +265,51 @@
 }
 {
     "speaker": "David Melendez Cano", 
-    "title": "Proyecto TRRP: Drones con routers, a
+    "title": "Proyecto TRRP: Drones con routers, arquitectura y programaci\u00f3n", 
+    "track": "track3"
+}
+{
+    "speaker": "Adolfo Sanz De Diego", 
+    "title": "\u00c9tica hacker", 
+    "track": "track3"
+}
+{
+    "speaker": "Maria Horta (FairCoop)", 
+    "title": "Faircoin o como la Tecnolog\u00eda s\u00ed puede cambiar el mundo", 
+    "track": "track3"
+}
+{
+    "speaker": "Alvaro Luis Bustamante (Universidad Carlos III de Madrid)", 
+    "title": "Internet Of Things", 
+    "track": "track4"
+}
+{
+    "speaker": "Javier Torres Ni\u00f1o", 
+    "title": "Creando un peque\u00f1o juego de realidad aumentada", 
+    "track": "track4"
+}
+{
+    "speaker": "Rub\u00e9n Aguilera D\u00edaz-Heredero (Autentia)", 
+    "title": "Angular 2: desde cero hasta m\u00e1s all\u00e1 del hola mundo", 
+    "track": "track4"
+}
+{
+    "speaker": "Carlos Edo (Ticketea)", 
+    "title": "Trolleando en Twitter con un bot hecho en Python", 
+    "track": "track4"
+}
+{
+    "speaker": "Telmo Zarraonandia Ayo", 
+    "title": "Creaci\u00f3n de escenarios de realidad virtual para videojuegos", 
+    "track": "track4"
+}
+{
+    "speaker": "Francisco Gomez Rodriguez", 
+    "title": "Sinfonier: C\u00f3mo convert\u00ed a mi abuela en una analista de datos", 
+    "track": "track4"
+}
+{
+    "speaker": "Juan Alonso (Tecnilogica)", 
+    "title": "Tratamiento de imagen en tiempo real: Processing + OpenCV", 
+    "track": "track4"
+}
