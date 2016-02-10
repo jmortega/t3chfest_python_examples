@@ -85,16 +85,24 @@ if __name__=="__main__":
     main()
 
     outfile = open('t3chfest.json','wb')
-	
+    outfile.write('[')
+    index = 0
+    
     for talk_t3chfest in talks_t3chfest:
+	index = index +1
 	print talk_t3chfest['track']
         print talk_t3chfest['title'].decode('utf-8').encode('cp850','replace').decode('cp850')
         print talk_t3chfest['speaker'].decode('utf-8').encode('cp850','replace').decode('cp850')
         line = json.dumps(talk_t3chfest,sort_keys=True, indent=4) + "\n"
-        outfile.write(line)
+	if len(talks_t3chfest)>index:
+	    outfile.write(line+",")
+	else:
+	    outfile.write(line)
 		
 	print "------------------"
 	
+    outfile.write(']')
+    
     with open('t3chfest.csv' ,'wb') as csvfile: 
             t3chfest_writer = csv.writer(csvfile)
             for result in talks_t3chfest:
